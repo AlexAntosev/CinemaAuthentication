@@ -1,0 +1,8 @@
+C:\Users\sasha\source\repos\AuthenticationManager\AuthenticationManager.Persisted\bin\Debug\netcoreapp3.0\AuthenticationManager.Persisted.deps.json
+C:\Users\sasha\source\repos\AuthenticationManager\AuthenticationManager.Persisted\bin\Debug\netcoreapp3.0\AuthenticationManager.Persisted.dll
+C:\Users\sasha\source\repos\AuthenticationManager\AuthenticationManager.Persisted\obj\Debug\netcoreapp3.0\AuthenticationManager.Persisted.AssemblyInfoInputs.cache
+C:\Users\sasha\source\repos\AuthenticationManager\AuthenticationManager.Persisted\obj\Debug\netcoreapp3.0\AuthenticationManager.Persisted.AssemblyInfo.cs
+C:\Users\sasha\source\repos\AuthenticationManager\AuthenticationManager.Persisted\bin\Debug\netcoreapp3.0\AuthenticationManager.Persisted.pdb
+C:\Users\sasha\source\repos\AuthenticationManager\AuthenticationManager.Persisted\obj\Debug\netcoreapp3.0\AuthenticationManager.Persisted.dll
+C:\Users\sasha\source\repos\AuthenticationManager\AuthenticationManager.Persisted\obj\Debug\netcoreapp3.0\AuthenticationManager.Persisted.pdb
+C:\Users\sasha\source\repos\AuthenticationManager\AuthenticationManager.Persisted\obj\Debug\netcoreapp3.0\AuthenticationManager.Persisted.csprojAssemblyReference.cache

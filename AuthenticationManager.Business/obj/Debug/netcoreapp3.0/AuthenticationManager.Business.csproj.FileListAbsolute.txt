@@ -1,0 +1,11 @@
+C:\Users\sasha\source\repos\AuthenticationManager\AuthenticationManager.Business\bin\Debug\netcoreapp3.0\AuthenticationManager.Persisted.dll
+C:\Users\sasha\source\repos\AuthenticationManager\AuthenticationManager.Business\obj\Debug\netcoreapp3.0\AuthenticationManager.Business.csprojAssemblyReference.cache
+C:\Users\sasha\source\repos\AuthenticationManager\AuthenticationManager.Business\obj\Debug\netcoreapp3.0\AuthenticationManager.Business.AssemblyInfoInputs.cache
+C:\Users\sasha\source\repos\AuthenticationManager\AuthenticationManager.Business\obj\Debug\netcoreapp3.0\AuthenticationManager.Business.AssemblyInfo.cs
+C:\Users\sasha\source\repos\AuthenticationManager\AuthenticationManager.Business\bin\Debug\netcoreapp3.0\AuthenticationManager.Business.deps.json
+C:\Users\sasha\source\repos\AuthenticationManager\AuthenticationManager.Business\bin\Debug\netcoreapp3.0\AuthenticationManager.Business.dll
+C:\Users\sasha\source\repos\AuthenticationManager\AuthenticationManager.Business\bin\Debug\netcoreapp3.0\AuthenticationManager.Business.pdb
+C:\Users\sasha\source\repos\AuthenticationManager\AuthenticationManager.Business\bin\Debug\netcoreapp3.0\AuthenticationManager.Persisted.pdb
+C:\Users\sasha\source\repos\AuthenticationManager\AuthenticationManager.Business\obj\Debug\netcoreapp3.0\AuthenticationManager.Business.csproj.CopyComplete
+C:\Users\sasha\source\repos\AuthenticationManager\AuthenticationManager.Business\obj\Debug\netcoreapp3.0\AuthenticationManager.Business.dll
+C:\Users\sasha\source\repos\AuthenticationManager\AuthenticationManager.Business\obj\Debug\netcoreapp3.0\AuthenticationManager.Business.pdb
