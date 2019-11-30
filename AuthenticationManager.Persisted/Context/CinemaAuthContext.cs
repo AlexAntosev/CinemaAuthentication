@@ -1,6 +1,6 @@
 ﻿using AuthenticationManager.Persisted.Configurations;
 using AuthenticationManager.Persisted.Entities;
-using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,7 +14,7 @@ namespace AuthenticationManager.Persisted.Context
 
         public CinemaAuthContext(DbContextOptions options) : base(options)
         {
-            // Database.EnsureDeleted();
+            //Database.EnsureDeleted();
             Database.EnsureCreated();
         }
 
@@ -24,6 +24,7 @@ namespace AuthenticationManager.Persisted.Context
             modelBuilder.ApplyConfiguration(new IdentityUserClaimsConfiguration());
             modelBuilder.ApplyConfiguration(new IdentityUserLoginConfiguration());
             modelBuilder.ApplyConfiguration(new IdentityUserRolesConfiguration());
+            modelBuilder.ApplyConfiguration(new IdentityRoleClaimConfiguration());
         }
 
     }
