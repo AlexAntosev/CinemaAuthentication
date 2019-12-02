@@ -17,6 +17,7 @@ using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.Swagger;
 using System;
+using System.Collections.Generic;
 using System.Text;
 
 namespace AuthenticationManager
@@ -35,9 +36,7 @@ namespace AuthenticationManager
             services.AddScoped<IUserService, UserService>();
 
             services.AddIdentity<AuthUser, IdentityRole>()
-                .AddEntityFrameworkStores<CinemaAuthContext>()
-                .AddDefaultTokenProviders();
-
+                .AddEntityFrameworkStores<CinemaAuthContext>();
 
             var connection = Configuration.GetConnectionString("LocalConnection");
             services.AddDbContext<CinemaAuthContext>(options =>
@@ -79,6 +78,21 @@ namespace AuthenticationManager
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Cinema Authentication API", Version = "v1" });
+
+                var security = new Dictionary<string, IEnumerable<string>>
+                {
+                    {"Bearer", new string[] { }},
+                };
+
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description = "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+                    Name = "Authorization",
+                    In =  ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey
+                });
+
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement());
             });
 
             services.AddMvc();

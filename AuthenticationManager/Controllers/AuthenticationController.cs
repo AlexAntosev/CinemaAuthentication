@@ -53,13 +53,15 @@ namespace AuthenticationManager.Controllers
         [HttpPost]
         [Route("SignOut")]
         public async Task<IActionResult> SignOut()
+        
         {
+            var r = Request;
             await _userService.SignOutAsync();
 
             return Ok();
         }
 
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         [AllowAnonymous]
         [HttpPut]
         [Route("GiveAdminRole")]
@@ -70,8 +72,7 @@ namespace AuthenticationManager.Controllers
             return Ok(identityResult);
         }
 
-        //[Authorize(Roles = "Admin")]
-        [AllowAnonymous]
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [Route("CreateRole")]
         public async Task<IActionResult> CreateRole([FromQuery]string name)
